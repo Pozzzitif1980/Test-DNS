@@ -17,17 +17,6 @@ do
 
  printf "${DOMAIN}\t"
 
-TIMES=()
-
-for i in {1}
-
-do
-
-TIME=$(dig @${DNS_SERVER} ${DOMAIN} | grep "Query time:" | awk '{print $4}') 
-
-echo "$TIME"
-
-
-done
+dig @${DNS_SERVER} ${DOMAIN} | grep "Query time:" | awk '{print $4}'
 
 done
