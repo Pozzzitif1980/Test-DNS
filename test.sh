@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DNS_SERVER="127.0.0.53"
+DNS_SERVER="127.0.0.1"
 
 DOMAINS=("google.com" "facebook.com" "yahoo.com" "twitter.com" "instagram.com" "linkedin.com" "reddit.com" "amazon.com" "wikipedia.org" "github.com" "ebay.com" "netflix.com" "pinterest.com" 
 "tumblr.com" "wordpress.com" "craigslist.org" "imdb.com" "stackoverflow.com" "bbc.com" "nytimes.com" "cnn.com" "msn.com" "foxnews.com" "huffingtonpost.com" "theguardian.com" "techcrunch.com" 
@@ -11,9 +11,6 @@ DOMAINS=("google.com" "facebook.com" "yahoo.com" "twitter.com" "instagram.com" "
 "huobi.com" "ftx.com" "blockchain.info" "etherscan.io" "coinmarketcap.com" "coingecko.com" "icodrops.com" "icos.icobox.io" "tokenmarket.net" "icobench.com" "coinlist.co" "crunchbase.com" 
 "angel.co" "producthunt.com" "indiegogo.com" "kickstarter.com" "gofundme.com" "patreon.com" "gumroad.com" "teespring.com" "etsy.com" "ebates.com")
 
-sudo systemctl restart maradns
-
-sleep 3
 for DOMAIN in "${DOMAINS[@]}"
 
 do
