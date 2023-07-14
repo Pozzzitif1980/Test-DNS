@@ -2,7 +2,7 @@
 
 rm results.csv
 
-sudo systemctl restart maradns
+# sudo systemctl restart  (вказати налаштований DNS resolver) 
 
 
 csv_file="results.csv"
