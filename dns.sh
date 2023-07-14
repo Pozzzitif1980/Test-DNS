@@ -7,10 +7,8 @@ rm results.csv
 
 csv_file="results.csv"
 
-for ((i=1; i<=1; i++)); do
     result=$(./test.sh)
     echo "$result" >> "$csv_file"
-done
 
 average_time=0
 
