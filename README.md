@@ -3,7 +3,7 @@
 - Unbound.
 - PowerDNS Recursor
 - pdnsd
-- MaraDNS
+- Maradns-deadwood
 - Knot Resolver
 - djbdns dnscache
 - BIND
