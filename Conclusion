@@ -1,1 +1,12 @@
+Після проведення, згідно списку,  тестування DNS resolver отримав такі результати:
 
+DNS-resolver - 	Середнє значення: 
+pdnsd	- 114,24
+Power-DNS -	151,39
+BIND-9 - 160,49
+Knot-resolver - 162,37
+Unbound	- 170,48
+dnscache	- 250,15
+Maradns-deadwood - 4048,32
+
+(посилання на таблицю з результатами - https://docs.google.com/spreadsheets/d/1Rbge19hCPul1Id16NTdiec3y4c-6KyGCSYG3jTBxtM4/edit#gid=196637999 )
