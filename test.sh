@@ -17,6 +17,6 @@ do
 
  printf "${DOMAIN}\t"
 
-dig @${DNS_SERVER} ${DOMAIN} | grep "Query time:" | awk '{print $4}'
+dig +time=30 @${DNS_SERVER} ${DOMAIN} | grep "Query time:" | awk '{print $4}'
 
 done
